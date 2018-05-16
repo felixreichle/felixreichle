@@ -4,7 +4,6 @@ html {
 body{
     background:#F5F6F8;
     font-family: 'Roboto Mono', monospace;
-    display:flex;
 }
 ::selection{
 	background-color:#00E47C;
@@ -12,13 +11,17 @@ body{
 .nowrp{
     white-space: nowrap;
 }
-div:first-child{
+body>div{
+    display:flex;
+    
+}
+div div:first-child{
     margin:0 auto;
     max-width:800px;
     min-height:100vh;
     padding:2%;
 }
-div:last-child{
+div div:last-child{
     padding:2%;
     font-size:.8em;
     font-weight:300;
@@ -49,10 +52,10 @@ h1, h2, h3{
 }
 
 #impressum h1{
-    font-size: 1.3em;
+    font-size: 1.6em;
 }
 #impressum h2{
-    font-size: 1.2em;
+    font-size: 1.3em;
 }
 
 .hide{
