@@ -104,4 +104,7 @@ h1, h2, h3{
     body>div{ 
         font-size: 80%;  
     }
+    div div:last-child{
+        font-size:.8em;
+    }
 }
