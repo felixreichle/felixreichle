@@ -102,7 +102,7 @@ h1, h2, h3{
 @media only screen and (max-width: 600px) {
     html,
     body>div{ 
-        font-size: 80%;  
+        font-size: 86%;  
     }
     div div:last-child{
         font-size:.8em;
