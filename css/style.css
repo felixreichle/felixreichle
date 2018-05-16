@@ -13,7 +13,7 @@ body{
 }
 body>div{
     display:flex;
-    
+    font-size: 100%;  
 }
 div div:first-child{
     margin:0 auto;
